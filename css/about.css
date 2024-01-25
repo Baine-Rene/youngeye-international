@@ -1,0 +1,195 @@
+body {
+    background-color:;
+    }
+
+    @font-face {
+        font-family: 'dreamorphans-b'; 
+        src: url('../Fonts/dreamorphans/dreamorphans-b.ttf')
+      }
+
+    a{
+        text-decoration:none;
+        color: white;
+    }
+    
+
+/* Navbar */
+.navbar-brand{
+  font-family: 'dreamorphans-b'; 
+}
+.nav-link{
+  color: hsl(0, 0%, 100%);
+}
+.nav-link:hover{
+color: #3cb371;
+}
+.navbar-form{
+  color: white;
+  font-family: 'dreamorphans-b'; 
+}
+.navbar-form:hover{
+  color:#3cb371; 
+}
+.navbar-form .fa{
+font-size: 16px;
+}
+/* End of NavBar */
+    
+/* about */
+#about h1{
+    font-family: 'dreamorphans-b';
+    font-weight: 500;
+}
+#about .nav-link{
+    color: #3cb371;
+}
+#about .nav-link:active{
+    color: #000000;
+}
+
+#about .btn-lg-square{
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+.rounded-circle{
+    border-radius: 50% !important;
+}
+
+.fa{
+font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+}
+
+/* Team */
+.team h1{
+    font-family: 'dreamorphans-b';
+    color: white;
+}
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+  }
+  
+  .team .member .member-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team .member .social a {
+    transition: color 0.3s;
+    color: #111111;
+    margin: 0 3px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    background:#3cb371 ;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+  }
+  
+  .team .member .social a:hover {
+    background: #212529;
+  }
+  
+  .team .member .social i {
+    font-size: 18px;
+    line-height: 0;
+  }
+  
+  .team .member .member-info {
+    padding: 25px 15px;
+  }
+  
+  .team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #111111;
+  }
+  
+  .team .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+  }
+  
+  .team .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+  }
+  
+  .team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+  }
+  /* Media Queries */
+  @media only screen and (max-width: 767px) {
+    .team .col-lg-3 {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    
+  }
+
+/* Back to top */
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+  }
+
+    /* Footer */
+    footer .container-fluid{
+      padding: 50px;
+          }
+          
+    footer  a{
+      text-decoration:none;
+      color: #3cb371;
+  }
+  
+    .mr-2,
+    .mx-2 {
+      margin-right: 0.5rem !important;
+    }
+    
+    .btn-lg, .btn-group-lg > .btn {
+      padding: 0.5rem 1rem;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      border-radius: 0.3rem;
+    }
+    footer h4{
+      font-family: 'dreamorphans-b'; 
+    }
+    
+    

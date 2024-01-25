@@ -1,0 +1,74 @@
+body {
+    background-color:;
+    }
+    
+    @font-face {
+      font-family: 'dreamorphans-b'; 
+      src: url('../Fonts/dreamorphans/dreamorphans-b.ttf')
+    }
+    
+    a{
+        text-decoration:none;
+        color: #3cb371;
+    }
+    
+
+/* Navbar */
+.navbar-brand{
+  font-family: 'dreamorphans-b'; 
+}
+.nav-link{
+  color: hsl(0, 0%, 100%);
+}
+.nav-link:hover{
+color: #3cb371;
+}
+.navbar-form{
+  color: white;
+  font-family: 'dreamorphans-b'; 
+}
+.navbar-form:hover{
+  color:#3cb371; 
+}
+.navbar-form .fa{
+font-size: 16px;
+}
+/* End of NavBar */
+
+    /* Contact */
+    #contact h1{
+      font-family: 'dreamorphans-b'; 
+    }
+    #contact ::placeholder{
+      font-family: cursive;
+    }
+
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+}
+
+    /* Footer */
+    footer .container-fluid{
+      padding: 50px;
+          }
+          
+.mr-2,
+.mx-2 {
+  margin-right: 0.5rem !important;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+footer h4{
+  font-family: 'dreamorphans-b'; 
+}
+

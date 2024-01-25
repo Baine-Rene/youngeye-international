@@ -1,0 +1,48 @@
+body{
+  background-color: #FCF3E1;
+}
+
+
+/* Fonts */
+@font-face {
+  font-family: 'inter'; 
+  src: url('../Fonts/inter/Inter-ExtraBold.ttf')
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+/* Navbar */
+.navbar-brand{
+  font-family: 'inter'; 
+  font-weight: 800;
+}
+.nav-link{
+  color: #160E0B;
+  font-family: 'inter'; 
+  font-weight: 600;
+}
+.nav-link:hover{
+color: #160E0B;
+}
+.navbar-form{
+  color: #160E0B;
+  font-family: 'inter'; 
+  font-weight: 800;
+}
+.navbar-form:hover{
+  color:; 
+}
+.navbar-form .fa{
+font-size: 16px;
+}
+/* End of NavBar */
+
+/* Header */
+
+header h1{
+font-family: 'inter';
+  font-weight:900
+}
