@@ -22,57 +22,106 @@
     <link rel="stylesheet" href="./css/styles.css">
 
 </head>
-<body>
+<body id="page-top">
 
-    
-<!-- Navbar -->
-<nav class="navbar navbar-light bg-transparent navbar-expand-lg bg-body-tertiary">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">YoungEye International</a>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand wow fadeIn" data-wow-delay="0.1s" href="#page-top">YoungEye International</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="fa fa-bars wow fadeInUp" data-wow-delay="0.2s" id="navbarIcon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav d-flex justify-content-center mx-auto mb-2">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link wow fadeIn" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link wow fadeIn" href="about.html">Podcasts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link wow fadeIn" href="contact.html">Contact</a>
           </li>
         </ul>
-        <button class="btn">
+        <button class="btn wow fadeIn" type="button">
         <a class="navbar-email" href="#">ye.international@gmail.com <span class="fa fa-link"></span></a>
        </button>
       </div>
-
     </div>
   </nav>
 <!-- Navbar end -->
 
 <!-- Header -->
-<section id="header">
-  <header>
-      <div class="container py-5 px-5">
-          <div class="row gx-5 align-items-center justify-content-center">
-            <div class="col-xl-5 col-xxl-6 d-sm-block text-center wow fadeInUp" data-wow-delay="0.3s" ><img class="img-fluid" src="./img/LOGO.svg" alt="YoungEye International Logo" /></div>
-              <div class="col-lg-8 col-xl-7 col-xxl-6">
-                  <div class="my-5 text-center text-xl-start">
-                      <h1 class=" py-1 mb-2 wow fadeInUp" data-wow-delay="0.4s"><span class="title">YOUNGEYE</span><br> <span class="title-2 fst-italic">INTERNATIONAL</span></h1>
-                      <p class=" mb-4 wow fadeInUp" data-wow-delay="0.4s" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, inventore illum quia nisi ad unde, rerum voluptatibus harum possimus similique fuga omnis. Iusto, ad odit nulla nisi, magni enim tenetur error eligendi dolor rem cupiditate hic consectetur eum vel quod! Saepe vero eos itaque reiciendis.</p>
-                  </div>
-              </div>
-              
+<header class="masthead">
+  <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+      <div class="d-flex justify-content-center">
+          <div class="text-center">
+            <div class=" text-center wow fadeInUp" data-wow-delay="0.5s" ><img class="img-fluid" src="./img/LOGO.svg" alt="YoungEye International Logo" /></div>
+              <a class="fa fa-caret-down wow fadeIn" data-wow-delay="1s" href="#showcase"></a>
           </div>
       </div>
-  </header>
-</section>
+  </div>
+</header>
 <!-- End of header -->
+
+<!-- About -->
+<section class="showcase" id="showcase">
+  <div class="container-fluid p-0">
+      <div class="row g-0">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img wow fadeIn" style="background-image: url('./img/Desk.svg')"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+              <h1 class="wow fadeInUp"  data-wow-delay="0.2s">Making an Impact: <span class="fst-italic">YoungEye International </span> Podcast</h1>
+              <p class="mb-4 wow fadeInUp" data-wow-delay="0.5s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magni cupiditate reprehenderit ab cum a fugit officiis excepturi perspiciatis quo rem dignissimos voluptatem sint quas rerum, quia quam. Unde consequuntur, voluptatem maxime sequi exercitationem aut?</p>
+              <button class="btn wow fadeInUp" type="button" data-wow-delay="0.9s"><a href="#">Learn more</a></button>
+
+          </div>
+      </div>
+      <div class="row g-0 why-listen">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('./img/Desk-2.svg')"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+              <h1>Why should you tune in to the podcasts ?</h1>
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, enim ipsum dolorem, incidunt officiis, sequi quas voluptatum dolore deserunt voluptas eos! Id earum nisi velit obcaecati quae illum qui, suscipit consectetur nesciunt quam neque molestiae amet tempore, eum vitae cumque ipsam corporis blanditiis asperiores! In?!</p>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+<!-- websites -->
+<section class="pages">
+<div class="container">
+<div class="row g-0">
+  <div class="col-lg-6 d-flex justify-content-center p-3">
+    <div class="card display-flex justify-content-center" style="max-width: 540px;">
+      <img src="./img/pages - YoungEye.svg" class="card-img-top img-fluid" alt="Small Image" style="max-width: 540px; max-height: 250px;">
+      <div class="card-body">
+        <h5 class="card-title">YoungEye Foundation</h5>
+        <p class="card-text">The Young Eye Foundation is a non-profit organization, located in Kampala, Uganda.The foundation was created support and contribute to the development of youth communities throughout the country. Our mission revolves around empowering marginalized youth and enhancing the well-being of children.</p>
+        <button class="btn wow fadeInUp" type="button" data-wow-delay="0.5s"><a href="https://youngeyefoundation.org/" target="_blank">youngeyefoundation.org</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6 d-flex justify-content-center p-3">
+    <div class="card display-flex justify-content-center" style="max-width: 540px;">
+      <img src="./img/pages - DarrenBaine-Blog.svg" class="card-img-top img-fluid" alt="Small Image" style="max-width: 540px; max-height: 250px;">
+      <div class="card-body">
+        <h5 class="card-title">Darren Baine Blog</h5>
+        <p class="card-text">On this blog, I invite you to join me on a journey of self-discovery and growth as I share personal insights and experiences on how I have been able to piece together parts of the puzzle. The blogs are intended to inspire and inform you, helping you to find your own path and make sense of the world around you.</p>
+        <button class="btn wow fadeInUp" type="button" data-wow-delay="0.5s"><a href="https://darrenbaine.com/" target="_blank">darrenbaine.com</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+
 
       <!-- JavaScript Libraries -->
     <script src="./Assets/jquery/jquery.js"></script>
