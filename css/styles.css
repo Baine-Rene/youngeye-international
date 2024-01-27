@@ -126,6 +126,8 @@ color: #ffffff;
   border-color: #160E0B;
 }
 
+/* Header */
+
 /* Tablet  */
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -148,28 +150,12 @@ header.masthead {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
+.masthead .fa-caret-down{
+  font-size: 32px;
+  color: #160E0B;
+}
 
-/* About */
-.about{
-  background-color: #160E0B;
-  height: 50dvh;
-}
-.about .about-text {
-  padding: 3rem;
-  color: #FCF3E1;
-}
-.about .about-img {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 500px; /* Set your desired width */
-            height: 300px; /* Set your desired height */
-}
-@media (min-width: 768px) {
-  .about .about-text {
-    padding: 7rem;
-  }
-}
+/* Showcase */
 .showcase{
   background-color: #160E0B;
 }
@@ -253,6 +239,11 @@ header.masthead {
     font-family: 'inter';
     font-size: 30px;
     font-weight: 800;
+  }
+  .pages .card-text{
+    font-family: 'inter';
+    font-size: 15px;
+    font-weight: 500;
   }
   .pages .card button{
      font-family: 'inter';
