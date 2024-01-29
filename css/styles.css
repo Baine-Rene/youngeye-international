@@ -341,15 +341,52 @@ header.masthead {
   }
 
   /* footer */
-  footer span{
-    font-family: 'inter';
-    font-size: 15px;
-    font-weight: 700;
+  footer h1{
+    font-family: 'inter'; 
+    font-weight: 900;
+    font-size: 60px;
     color: #160E0B;
   }
-  
-  .fab {
-    vertical-align: -.125em;
-    font-size: 25px;
-    color: #160e0b;
+
+  footer .btn{
+    background-color: #160E0B;
   }
+  footer  .fab{
+    text-decoration:none;
+    color: #FCF3E1;
+}
+.mr-2,
+.mx-2 {
+  margin-right: 0.5rem !important;
+}
+footer .btn-lg, .btn-group-lg > .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.8rem;
+}
+
+/* Media Queries */
+
+/* Tablet view (768px - 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mail h1 {
+      font-size: 48px; 
+  }
+
+  .mail i {
+      font-size: 26px;
+  }
+}
+
+/* Phone view (up to 767px) */
+@media only screen and (max-width: 767px) {
+  .mail h1 {
+      font-size: 36px; 
+  }
+
+  .mail .fa-link{
+      font-size: 30px;
+  }
+}
+
