@@ -188,6 +188,7 @@ header.masthead {
   background-size: cover;
   border-radius: 0px 0px 0px 50px;
 }
+
 /* Why-Listen */
 .showcase .why-listen .showcase-img {
   min-height: 30rem;
@@ -206,7 +207,12 @@ header.masthead {
   border-radius: 0 3px 3px 0;
 }
 
-/* Webpages */
+/* partners */
+.pages .title{
+  font-family: 'inter';
+  font-weight: 800;
+  color: #160e0b;
+}
 .pages .card{
   padding: 1.5rem;
   color:#FCF3E1;
@@ -271,3 +277,55 @@ header.masthead {
     padding: 0.5rem;
   }
 }
+
+/* Video */
+.video{
+  background-color: #160E0B;
+}
+.video .showcase-text {
+  padding: 1rem;
+  font: 'inter';
+}
+.video .showcase-text p{
+  font-family: 'inter';
+  font-weight: 600;
+  color: #FCF3E1;
+}
+.video .showcase-text h1{
+  font-family: 'inter';
+  font-weight: 800;
+  color: #FCF3E1;
+}
+.video button{
+  font-family: 'inter';
+  font-weight: 600;
+  background-color: #FCF3E1;
+  padding: 0.5rem;
+}
+.video a{
+  font-family: 'inter';
+  font-weight: 900;
+ color: #160E0B;
+  padding: 0.6rem;
+}
+
+#video video, #video iframe{
+  border-radius: 1rem;
+  border: 5px solid #FCF3E1;
+  object-fit: cover;
+  }
+
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, 0.1), inset 0 .125em .5em rgbargba(0, 0, 0, 0.15)
+  }
+
+  /* footer */
+  .fa {
+    vertical-align: -.125em;
+    color: #160e0b;
+  }
