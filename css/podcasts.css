@@ -1,0 +1,231 @@
+body{
+    background-color: #FCF3E1;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  /* Fonts */
+  @font-face {
+    font-family: 'inter'; 
+    src: url('../Fonts/inter/Inter-ExtraBold.ttf')
+  }
+
+  a{
+    text-decoration:none;
+}
+
+/* Navigation */
+
+#mainNav {
+    min-height: 4.5rem;
+    background-color: #160E0B;
+  }
+  #mainNav .navbar-toggler {
+    font-size: 24px;
+    padding: 0.75rem;
+    font-weight: 800;
+    color: #ffffff;
+    border: 0px;
+  }
+  #mainNav .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  #mainNav .navbar-brand {
+    color:#FCF3E1;
+    font-weight: 700;
+    padding: 0.9rem 0;
+  }
+  
+  #mainNav .navbar-nav .nav-item:hover {
+    color: fade(#ffffff, 80%);
+    outline: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: #160E0B;
+  }
+  
+  /* Media queries */
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+      background-color: #160E0B;
+      transition: background-color 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+      padding: 0.5rem 0;
+      color:#FCF3E1;
+    }
+    #mainNav .nav-link {
+      font-family: 'inter'; 
+      font-weight: 700;
+      transition: none;
+      padding: 2rem 1.5rem;
+      color:#FCF3E1;
+    }
+  
+    #mainNav .nav-link:active {
+      color: #FCF3E1;
+    }
+    #mainNav.navbar-shrink {
+      background-color: #160e0b;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color:#FCF3E1;
+    }
+    #mainNav.navbar-shrink .nav-link {
+      color: #160e0b;
+      padding: 1.5rem 1.5rem 1.25rem;
+      border-bottom: 0.25rem solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link{
+      color:#FCF3E1;
+    }
+    #mainNav.navbar .btn{
+      background-color: #160E0B;
+    }
+    #mainNav.navbar .navbar-email{
+      color: #FCF3E1;
+    }
+    #mainNav.nav-link:hover{
+      color: #FCF3E1;
+      }
+  }
+  /* Header */
+header {
+    border-radius: 20px;
+}
+header h1{
+    font-family: 'inter'; 
+    font-weight: 900;
+    color: #160E0B;
+}
+
+/* Podcasts */
+#podcasts{
+    background-color: #160E0B;
+}
+#podcasts h2{
+    font-family: 'inter'; 
+    font-weight: 900;
+    color: #FCF3E1;
+
+}
+#podcasts p{
+    font-family: 'inter'; 
+    color: #FCF3E1;
+
+}
+
+
+
+
+/* Feature */
+
+#feature h2{
+    font-family: 'inter'; 
+    font-weight: 900;
+    color: #160E0B;
+}
+#feature .mb-4{
+    font-family: 'inter'; 
+    font-weight: 600;
+    color: #160E0B;
+}
+#feature .breadcrumb li, a{
+    font-family: 'inter'; 
+    color: #160E0B;
+    font-weight: 700;
+}
+#feature .breadcrumb li, a:hover{
+    font-family: 'inter'; 
+    color: #160E0B;
+    font-weight: 700;
+}
+#feature video, #feature iframe{
+    border-radius: 1rem;
+    border: 5px solid #160e0b;
+    object-fit: cover;
+    }
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+
+
+    /* footer */
+    footer h1{
+        font-family: 'inter'; 
+        font-weight: 900;
+        font-size: 60px;
+        color: #160E0B;
+      }
+    
+      footer .btn{
+        background-color: #160E0B;
+      }
+      footer  .fab{
+        text-decoration:none;
+        color: #FCF3E1;
+    }
+    .mr-2,
+    .mx-2 {
+      margin-right: 0.5rem !important;
+    }
+    footer .btn-lg, .btn-group-lg > .btn {
+      padding: 0.5rem 1rem;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      border-radius: 0.8rem;
+    }
+    
+    /* Media Queries */
+    
+    /* Tablet view (768px - 991px) */
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .mail h1 {
+          font-size: 48px; 
+      }
+    
+      .mail i {
+          font-size: 26px;
+      }
+    }
+    
+    /* Phone view (up to 767px) */
+    @media only screen and (max-width: 767px) {
+      .mail h1 {
+          font-size: 36px; 
+      }
+    
+      .mail .fa-link{
+          font-size: 30px;
+      }
+    }
+    

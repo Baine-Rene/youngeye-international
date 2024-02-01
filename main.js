@@ -3,7 +3,7 @@
 
     window.addEventListener('DOMContentLoaded', event => {
 
-        // Navbar shrink function
+        /*  Navbar shrink function
         var navbarShrink = function () {
             const navbarCollapsible = document.body.querySelector('#mainNav');
             if (!navbarCollapsible) {
@@ -60,3 +60,29 @@
             }
         });
     });
+*/
+
+// Back to top button
+
+let backtotop = select('.back-to-top')
+if (backtotop) {
+  const toggleBacktotop = () => {
+    if (window.scrollY > 100) {
+      backtotop.classList.add('active')
+    } else {
+      backtotop.classList.remove('active')
+    }
+  }
+  window.addEventListener('load', toggleBacktotop)
+  onscroll(document, toggleBacktotop)
+}
+
+  /**
+   * Preloader
+   */
+  let preloader = select('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove()
+    });
+  }
