@@ -8,7 +8,7 @@ html{
 /* Fonts */
 @font-face {
   font-family: 'inter'; 
-  src: url('../Fonts/inter/Inter-ExtraBold.ttf')
+  src: url('../Fonts/inter/Inter-Regular.ttf')
 }
 
 a{

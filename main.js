@@ -1,7 +1,14 @@
  // Initiate the wowjs
     new WOW().init();
 
-    window.addEventListener('DOMContentLoaded', event => {
+    // Look for .hamburger
+    var hamburger = document.querySelector(".hamburger");
+    // On click
+    hamburger.addEventListener("click", function() {
+      // Toggle class "is-active"
+      hamburger.classList.toggle("is-active");
+      // Do something else, like open/close menu
+    });
 
         /*  Navbar shrink function
         var navbarShrink = function () {
